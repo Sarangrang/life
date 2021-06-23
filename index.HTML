@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <title> '김사랑' 삶의 목표 </title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+  <script src="colors.js"></script>
+</head>
+<body>
+  <h1><a href="index.html" target="_blank">김사랑의 삶의 목표</a></h1>
+  <!--<input type="button" value="night" onclick="
+  document.querySelector('body').style.backgroundColor = 'gray';
+    document.querySelector('body').style.color = 'white';
+  ">
+  <input type="button" value="day" onclick="
+  document.querySelector('body').style.backgroundColor = 'white';
+    document.querySelector('body').style.color = 'black';
+  ">
+-->
+<input type="button" value="night" onclick="
+  nightDayHandler(this);
+">
+  <div id="grid">
+    <ol>
+      <li><a href="1.html" title="everyday">하루 목표</a></li><br>
+      <li><a href="2.html" title="~3years">단기 목표</a></li><br>
+      <li><a href="3.html" title="~10years">중 장기 목표</a></li><br>
+      <li><a href="4.html" title="~30years">장기 목표</a></li><br>
+    </ol>
+    <div id="article">
+      <img src="map.jpeg" width="70%">
+      <h3>그 어느 때보다 <u>지금</u>이 가장 중요하다.<br>
+        오늘 하는 일이 내가 어떤 사람이 될지 결정하고,<br>
+        그에 따라 삶의 질과 방향이 결정된다는 사실을 항상 기억하라.</h3>
+    </div>
+  </div>
+</html>
